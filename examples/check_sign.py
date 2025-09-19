@@ -1,7 +1,7 @@
 from jam import run_jam_code
 
 #Example: check the sign of an inputted number
-function check_sign(n) {
+def check_sign(n):
     if n > 0 {
         print "positive"
     } else {
@@ -11,7 +11,7 @@ function check_sign(n) {
             print "zero"
         }
     }
-}
+
 
 check_sign(5)
 check_sign(-3)
